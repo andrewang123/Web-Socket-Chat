@@ -26,13 +26,13 @@ message.addEventListener('keypress', function() {
     socket.emit('typing', user.value)
 });
 
-// listen for events for any changes
+// listen for events for any changes of new messages sent
 socket.on('chat', function(data) {
     feedback.innerHTML = ''; // remove user is typing
     output.innerHTML += '<p><strong>' + data.user + ': </strong>' + data.message + '</p>';
 });
 
-//DISPLAYS ONLY
+// Listens for any event changes of other users typing
 socket.on('typing', function(data) {
     feedback.innerHTML = '<p><em>' + data + ' is typing a message...</em></p>';
 });
