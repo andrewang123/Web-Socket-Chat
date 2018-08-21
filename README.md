@@ -7,5 +7,8 @@ It also notifies the other in the chatroom whether or not another person is typi
 1. Clone the application
 2. 'npm install' the package
 3. 'npm run' to get the application to work
+4. Open browser and go to localhost:4000
+5. Spam the chat like crazy
+6. Profit... just kidding.
 
 Note: to mimic the chatroom open up multiple tabs.
