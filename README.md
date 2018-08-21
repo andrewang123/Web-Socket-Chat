@@ -1,5 +1,5 @@
 # A simple web application w/ web sockets
-Written in NodeJS and HTML/CSS/JavaScript  
+Written in ExpressJS and HTML/CSS/JavaScript  
 This application allows users to communicate in a chat and see real time what the other person says.  
 It also notifies the other in the chatroom whether or not another person is typing.  
 
